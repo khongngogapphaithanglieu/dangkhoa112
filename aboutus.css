@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+nav {
+    text-align: center;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+nav a {
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #cccccc6c;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập, Đăng Kí</title>
+    <link rel="stylesheet" href="signin.css">
+    
+</head>
+<body>
+
+    <div class="container">
+        <div class="form-container" id="loginForm">
+            <h2>Đăng Nhập</h2>
+            <div id="loginErrorMessage"; class="error-massage"></div>
+            <input type="text" id="loginUsername" placeholder="Tên đăng nhập(Gmail)" required>
+            <input type="password" id="loginPassword" placeholder="Mật khẩu" required>
+            <button type="button" onclick="login()">Đăng Nhập</button>
+            <p>Chưa có tài khoản? <a href="register.html">Đăng kí ngay!</a></p>
+        </div>
+    </div>
+<script src="login.js"></script>
+</body>
+</html>

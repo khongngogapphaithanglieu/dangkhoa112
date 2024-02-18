@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #00ff1a;
+    color: #fff;
+}
+
+nav {
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.search-container {
+    float: right;
+}
+
+input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+input[type=text]::placeholder {
+    color: #ddd;
+}
+
+.login-container {
+    float: right;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #cccccc6c;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+a {
+    color: white;
+}
+.container {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+.image {
+    display: block;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-top: 320px;
+}
